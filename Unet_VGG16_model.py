@@ -1,5 +1,5 @@
 from keras.models import Model
-from keras.layers import Input,Conv2D,MaxPooling2D,UpSampling2D,concatenate,Activation,Conv2DTranspose,BatchNormalization,Dropout,Lambda
+from keras.layers import Input,Conv2D,MaxPooling2D,UpSampling2D,Concatenate,Activation,Conv2DTranspose,BatchNormalization,Dropout,Lambda
 from tensorflow.keras.optimizers import Adam
 from keras.layers import Activation,MaxPool2D,Concatenate
 from tensorflow.keras.applications import VGG16

@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 19 20:43:55 2023
-
-@author: User
-"""
-
 from keras.models import Model
 from keras.layers import Input,Conv2D,MaxPooling2D,UpSampling2D,Concatenate,Activation,Conv2DTranspose,BatchNormalization,Dropout,Lambda
 from tensorflow.keras.optimizers import Adam
